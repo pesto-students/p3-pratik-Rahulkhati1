@@ -16,8 +16,7 @@ function createIncrement() {     // 1st function declared in scope
   increment();
   log(); // when this function is called message has Count is 0 that it prints
   
-  
-  
+
   // output is Count is 0
   // "Count is 0" is logged to console. Increment function has been called 3 times thus value of count is 3.
   // Even if count variable has been incremented a few times, message variable always holds 'Count is 0'.
