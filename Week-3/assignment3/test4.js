@@ -20,5 +20,5 @@ stack.items; // =>  this should be displaying undefined
 console.log("items = ", stack.items);
 
 // By moving items variable inside createStack() scope. 
-// There is no way to access or modify items array from the outside of createStack() scope.
-// Items is now a private variable, and the stack is encapsulated only push() and pop() method are public.
+// There is no other direction to access or modify items array from the outside of createStack() scope.
+// Finally items is a private variable, and the stack is encapsulated only push() and pop() method is public.
