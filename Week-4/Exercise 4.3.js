@@ -16,7 +16,7 @@ const Fib = function (n) {
       },
     };
   };
-  // print like this
+  // print like this is final
   console.log("The Fibonaci Series is:"); // [0,1,1,2,3,5,8]
   for (const num of Fib(7)) {
     console.log(num);
