@@ -22,3 +22,4 @@ const Fib = function (n) {
     console.log(num);
   }
   // So, in this case our fib method will return an object which is Iterators.
+  
