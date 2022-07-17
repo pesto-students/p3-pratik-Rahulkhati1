@@ -1,4 +1,14 @@
-const hasDuplicate = arr => new Set(arr).size !== arr.length
+const hasDuplicate = arr => {
 
-console.log(hasDuplicate([1,3,4,5]));
-console.log(hasDuplicate([1,5,-1,4]));
+    // here the set will remove any duplicate values
+    let arrSet = new Set(arr)
+
+    // if the array has duplicates the set size will be reduced
+    if (arrSet.size !== arr.length) {
+        return true;
+    }
+    return false;
+}
+
+console.log(hasDuplicate([1, 2, 3, -1, 1])); // true
+
