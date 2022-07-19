@@ -11,4 +11,3 @@ const hasDuplicate = arr => {
 }
 
 console.log(hasDuplicate([1, 2, 3, -1, 1])); // true
-
